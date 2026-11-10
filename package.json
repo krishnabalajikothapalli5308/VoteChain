@@ -1,0 +1,17 @@
+{
+  "name": "votechain-deploy",
+  "version": "1.0.0",
+  "description": "VoteChain Sepolia deployment and benchmarking",
+  "scripts": {
+    "compile":   "hardhat compile",
+    "deploy":    "hardhat run scripts/deploy.js --network sepolia",
+    "benchmark": "hardhat run scripts/benchmark.js --network sepolia",
+    "update-paper": "node scripts/update_paper.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.0.0",
+    "docx": "^9.5.3"
+  }
+}

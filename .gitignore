@@ -1,0 +1,10 @@
+.env
+*.env
+node_modules/
+cache/
+artifacts/
+coverage/
+*.zkey
+*.r1cs
+*.ptau
+.DS_Store
